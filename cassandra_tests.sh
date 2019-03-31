@@ -5,7 +5,7 @@
 #
 
 function Usage() {
-  echo "Usage: $0 [cassandra host] [--ssl]"
+  echo "Usage: $0 [-h | cassandra host] [--ssl]"
   echo "for ssl support one has to add the host"
   echo "example:"
   echo "  without ssl - run $0 , or $0 \`hostname\`"
